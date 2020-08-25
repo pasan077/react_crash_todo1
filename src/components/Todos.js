@@ -1,14 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 class Todos extends React.Component {
   render(){
-  return (
-    <div>
-      <h1>Todos</h1>
-    </div>
-  )
+  return this.props.todos.maps((todos) => (
+  <h3>{ todo.title } </h3>
+  ));
   }
 }    
   
-
 export default Todos;

@@ -4,7 +4,7 @@ export class TodoItem extends Component {
     render() {
         return (
             <div>
-                <p>Hello</p>
+                <p>Hello TodoItem</p>
             </div>
         )
     }
